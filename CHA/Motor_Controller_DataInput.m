@@ -32,8 +32,8 @@ end
 
 for b = 2:row
     filename = ctrl_txt(b,1);
-    controller.PeakPower = ctrl_raw(b,2);
-    controller.ContPower = ctrl_raw(b,3);
+    %controller.PeakPower = ctrl_raw(b,2);
+    %controller.ContPower = ctrl_raw(b,3);
     controller.DCVoltage = ctrl_raw(b,4);
     controller.MaxOutputCurrent = ctrl_raw(b,5);
     controller.ContOutputCurrent = ctrl_raw(b,6);
